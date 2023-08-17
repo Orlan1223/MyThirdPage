@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f66e96e125.js" crossorigin="anonymous"></script>
+    <title>PeliMax</title>
+    <link rel="stylesheet" href="mis_Estilos.css">
+    <script src="my_scripts.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><i class="fas fa-home"></i><a href="#">Inicio</a></li>
+                <li class="nav__li"><i class="fas fa-dollar-sign"></i><a href="#">Gana dinero</a></li>
+                <li class="nav__li"><i class="fas fa-person"></i><a href="#">Sobre nosotros</a></li>
+                <li class="nav__li"><i class="fas fa-handshake-angle"></i><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="nav__responsive-ul">
+                <div class="nav__responsive-buttom"></div>
+                <div class="nav__li-container">
+                    <li class="nav__responsive-li"><i class="fas fa-home"></i><a href="#">Inicio</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-dollar-sign"></i><a href="#">Gana dinero</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-person"></i><a href="#">Sobre nosotros</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-handshake-angle"></i><a href="#">Ayuda</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="textoTitulo">
+        <h1 >Bienvenido a PeliMax</h1>
+        <p id="textoSinNombre">Hola como te llamas?</p>
+    </div>
+
+    <div class="nombre">
+        <input type="text" id="textoNombre">
+        <button onclick="cambiarNombre()">continuar</button>
+    </div>
+
+    <div id="edad">
+        <p id="textoEdad">Perfecro ahora dinos cual es tu edad</p>
+        <input type="number" id="edadUsuario">
+        <button onclick="mostrarCatalogo()">continuar</button>
+    </div>
+    
+    <div class="peliculasTop">
+        <p>Peliculas del momento</p>
+        <a href=""><img class="barbieImg" src="imagenes/barbie.jpg" alt="barbie"></a>
+        <a href=""><img class="oppenImg" src="imagenes/Oppenheimer.jpg" alt="Oppenheimer"></a>
+    </div>
+
+    <div class="peliculasTop_responsive">
+        <p>Top peliculas</p>
+        <a href=""><img class="barbieImg_responsive" src="imagenes/barbie.jpg" alt="barbie"></a>
+        <a href=""><img class="oppenImg_responsive" src="imagenes/Oppenheimer.jpg" alt="Oppenheimer"></a>
+    </div>
+
+    <div id="imagenesEdad_13">
+        <h3>Estas son nuestras recomendaciones segun tu edad(0-13)</h3>
+        <a href=""><img class="imagen1_13" src="imagenes/pelicula_13_1.jpg" alt="pelicula_13-1"></a>
+        <a href=""><img class="imagen2_13" src="imagenes/pelicula_13_2.jpg" alt="pelicula_13-2"></a>
+        <a href=""><img class="imagen3_13" src="imagenes/pelicula_13_3.jpg" alt="pelicula_13-3"></a>
+        <a href=""><img class="imagen4_13" src="imagenes/pelicula_13_4.jpg" alt="pelicula_13-4"></a>
+    </div>
+
+    <div id="imagenesEdad_16">
+        <h3>Estas son nuestras recomendaciones segun tu edad(14-16)</h3>
+        <a href=""><img class="imagen1_16" src="imagenes/pelicula_16_1.jpg" alt="pelicula_16-1"></a>
+        <a href=""><img class="imagen2_16" src="imagenes/pelicula_16_2.jpg" alt="pelicula_16-2"></a>
+        <a href=""><img class="imagen3_16" src="imagenes/pelicula_16_3.jpg" alt="pelicula_16-3"></a>
+        <a href=""><img class="imagen4_16" src="imagenes/pelicula_16_4.jpg" alt="pelicula_16-4"></a>
+    </div>
+
+    <div id="imagenesEdad_18">
+        <h3>Estas son nuestras recomendaciones segun tu edad(16-18)</h3>
+        <a href=""><img class="imagen1_18" src="imagenes/pelicula18_1.jpg" alt="pelicula_18-1"></a>
+        <a href=""><img class="imagen2_18" src="imagenes/pelicula18_2.jpg" alt="pelicula_18-2"></a>
+        <a href=""><img class="imagen3_18" src="imagenes/pelicula18_3.jpg" alt="pelicula_18-3"></a>
+        <a href=""><img class="imagen4_18" src="imagenes/pelicula18_4.jpg" alt="pelicula_18-4"></a>
+    </div>
+
+    <div id="imagenesEdad_18_Mas">
+        <h3>Estas son nuestras recomendaciones segun tu edad(18+)</h3>
+        <a href=""><img class="imagen1_18_Mas" src="imagenes/pelicula+18_1.jpg" alt="pelicula_18+-1"></a>
+        <a href=""><img class="imagen2_18_Mas" src="imagenes/pelicula+18_2.jpg" alt="pelicula_18+-2"></a>
+        <a href=""><img class="imagen3_18_Mas" src="imagenes/pelicula+18_3.jpg" alt="pelicula_18+-3"></a>
+        <a href=""><img class="imagen4_18_Mas" src="imagenes/pelicula+18_4.jpg" alt="pelicula_18+-4"></a> 
+    </div>
+
+</body> 
+</html>
+ 
